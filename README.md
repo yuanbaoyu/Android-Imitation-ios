@@ -14,3 +14,9 @@ android 仿ios各种控件工具集
 ![image](https://github.com/yuanbaoyu/Android-Imitation-ios/raw/master/preview/alertviewdemo.gif)  
 
 4、使用请参照示例
+
+grade配置
+
+dependencies {
+    compile 'com.xinghai:imitation_ios:1.0'
+}
