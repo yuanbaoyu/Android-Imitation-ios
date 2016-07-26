@@ -23,4 +23,12 @@
         android:onClick="toPickerViewDemo"
         android:text="PickerView示例"/>
 
+    <Button
+        android:id="@+id/alertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:onClick="toAlertViewDemo"
+        android:text="AlertView示例"/>
+
 </LinearLayout>

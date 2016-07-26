@@ -15,15 +15,10 @@ import com.xinghai.imitation_ios.svprogresshud.SVProgressHUD;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn,pvBtn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn = (Button) findViewById(R.id.btn);
-
-        pvBtn = (Button) findViewById(R.id.PvBtn);
     }
 
     public void toSVProgressHudDemo(View view){
@@ -32,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void toPickerViewDemo(View view){
         startActivity(new Intent(this,PickerViewActivity.class));
+    }
+
+    public void toAlertViewDemo(View view){
+        startActivity(new Intent(this,AlertViewActivity.class));
     }
 
 }

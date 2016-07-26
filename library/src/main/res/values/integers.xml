@@ -3,4 +3,6 @@
   <integer name="svanimation_default_duration">300</integer>
 
   <integer name="pickerview_default_duration">300</integer>
+
+  <integer name="alertview_default_duration">300</integer>
 </resources>
