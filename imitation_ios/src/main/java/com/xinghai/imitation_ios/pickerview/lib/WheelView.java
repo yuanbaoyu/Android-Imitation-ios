@@ -18,8 +18,6 @@ import com.xinghai.imitation_ios.pickerview.adapter.WheelAdapter;
 import com.xinghai.imitation_ios.pickerview.listener.OnItemSelectedListener;
 import com.xinghai.imitation_ios.pickerview.model.IPickerViewData;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;

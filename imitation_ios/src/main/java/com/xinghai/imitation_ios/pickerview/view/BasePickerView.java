@@ -12,8 +12,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 
 import com.xinghai.imitation_ios.R;
-import com.xinghai.imitation_ios.pickerview.utils.PickerViewAnimateUtil;
 import com.xinghai.imitation_ios.pickerview.listener.OnDismissListener;
+import com.xinghai.imitation_ios.pickerview.utils.PickerViewAnimateUtil;
 
 /**
  * Created by Sai on 15/11/22.

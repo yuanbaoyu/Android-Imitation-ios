@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 import com.xinghai.imitation_ios.R;
 import com.xinghai.imitation_ios.pickerview.view.BasePickerView;
-import com.xinghai.imitation_ios.pickerview.model.IPickerViewData;
 import com.xinghai.imitation_ios.pickerview.view.WheelOptions;
 
 import java.util.ArrayList;
