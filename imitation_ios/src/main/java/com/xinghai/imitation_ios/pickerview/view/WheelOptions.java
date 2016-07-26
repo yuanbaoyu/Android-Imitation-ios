@@ -1,12 +1,13 @@
 package com.xinghai.imitation_ios.pickerview.view;
 
-import java.util.ArrayList;
 import android.view.View;
 
 import com.xinghai.imitation_ios.R;
 import com.xinghai.imitation_ios.pickerview.adapter.ArrayWheelAdapter;
 import com.xinghai.imitation_ios.pickerview.lib.WheelView;
 import com.xinghai.imitation_ios.pickerview.listener.OnItemSelectedListener;
+
+import java.util.ArrayList;
 
 public class WheelOptions<T> {
 	private View view;

@@ -1,9 +1,7 @@
 package com.xinghai.imitation_ios.pickerview.view;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.List;
+import android.content.Context;
+import android.view.View;
 
 import com.xinghai.imitation_ios.R;
 import com.xinghai.imitation_ios.pickerview.TimePickerView.Type;
@@ -11,8 +9,10 @@ import com.xinghai.imitation_ios.pickerview.adapter.NumericWheelAdapter;
 import com.xinghai.imitation_ios.pickerview.lib.WheelView;
 import com.xinghai.imitation_ios.pickerview.listener.OnItemSelectedListener;
 
-import android.content.Context;
-import android.view.View;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.List;
 
 
 public class WheelTime {
