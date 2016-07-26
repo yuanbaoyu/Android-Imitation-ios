@@ -8,10 +8,27 @@
               android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
-        android:onClick="toSVProgressHudDemoActivity"
+        android:onClick="toSVProgressHudDemo"
         android:text="SVProgressHUD示例"/>
+
+    <Button
+        android:id="@+id/PvBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:onClick="toPickerViewDemo"
+        android:text="PickerView示例"/>
+
+    <Button
+        android:id="@+id/alertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:onClick="toAlertViewDemo"
+        android:text="AlertView示例"/>
 
 </LinearLayout>
