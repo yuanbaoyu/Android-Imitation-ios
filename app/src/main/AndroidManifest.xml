@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".SVProgressHudDemoActivity">
         </activity>
+        <activity android:name=".PickerViewActivity">
+        </activity>
     </application>
 
 </manifest>
