@@ -90,7 +90,7 @@ public class TimePickerView extends BasePickerView implements View.OnClickListen
     /**
      * 指定选中的时间，显示选择器
      *
-     * @param date
+     * @param date 日期
      */
     public void show(Date date) {
         Calendar calendar = Calendar.getInstance();

@@ -80,6 +80,11 @@ public class AlertView {
 
     /**
      * 获取数据
+     * @param title 标题
+     * @param msg 内容
+     * @param cancel
+     * @param destructive
+     * @param others
      */
     protected void initData(String title, String msg, String cancel, String[] destructive, String[] others) {
 
